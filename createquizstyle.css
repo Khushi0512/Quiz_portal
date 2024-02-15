@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('createquiz_wall.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+}
+
+header, footer {
+    background-color: grey; /* Blue background for header and footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(0, 119, 255); /* Blue background for buttons */
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #3a6e9e; /* Darker blue on hover */
+}
+
+/* Specific Page Styles */
+main {
+    padding: 20px;
+}
+
+.quiz-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.option {
+    margin-bottom: 15px;
+}
+
+.addOptionBtn {
+    margin-bottom: 15px;
+}
+
+/* Hide select questions initially */
+#purposeQuestion, #featureQuestion {
+    display: none;
+}
+/* Align text and buttons to the left */
+.question, .options {
+    text-align: left;
+}
+.quiz-title-container {
+    text-align: center; /* Center align the quiz title */
+}
+
+.quiz-title-container label {
+    display: block; /* Make the label a block element */
+    margin-bottom: 10px; /* Add some margin below the label */
+}
